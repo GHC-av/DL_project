@@ -1,4 +1,4 @@
-# DL_project
+# Deep Learning Project
 ## Pneumonia Detection from Chest X-ray Images
 
 Pneumonia is a form of acute respiratory infection that affects the lungs and is a leading cause of morbidity and mortality. Chest X-ray represents the initial investigation of choice in most cases. In this paper, two different types of architectures to detect the presence of pneumonia from chest X-ray images are compared. The first model is a shallow convolutional neural network, the second one is based on DenseNet architecture. Both the methods leverage on transfer learning, the models were initially pre-trained on a separate data set collecting chest X-ray images of healthy people and patients infected by Covid-19. The data sets used for training and pre-training are of similar size and cannot be considered as exceptionally large. For this reason, data augmentation was used both during training and pre-training. The results obtained confirm that deep learning and convolutional neural network can be an automated and effective tool in diagnosing pneumonia.
