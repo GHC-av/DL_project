@@ -6,7 +6,7 @@ Pneumonia is a form of acute respiratory infection that affects the lungs and is
 ### Methods and Dataset
 **Dataset**
 This problem is a binary classification one where the inputs are labelled chest X-ray images and the output is one of the two classes: pneumonia and normal (not pneumonia). 
-The data set was obtained from Kaggle [Kaggle] (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+The data set was obtained from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 and it contains chest X-ray images (anterior-posterior) selected from pediatric patients of the age one to five year old from Guangzhou Women and Children’s Medical Center. As described by the data set provider, all chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. To reduce the odds of any grading errors, the evaluation set was also checked by a third expert.
 
 In the original version the validation set is very small (only 16 examples). For this reason, it was decided to use an [alternative version](https://www.kaggle.com/tolgadincer/labeled-chest-xray-images) of the data set where the validation data set has been merged with the train set. The validation data set will be specified during the model training as a hold-out set with size 20% of the training set. This precaution should ensure a more robust model.
